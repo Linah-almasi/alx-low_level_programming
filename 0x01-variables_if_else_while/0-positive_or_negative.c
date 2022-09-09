@@ -2,21 +2,23 @@
 #include <time.h> 
 #include <stdio.h> 
 /** 
-* main - main block 
-* Description: Get a random number and print the number 
-* and if it is positive, negative, or zero 
-* Return: 0 
+* main - Entry point 
+* 
+* Description: print value of n satus; zero, positive ornegative 
+* 
+* Return: Always 0 (Success) 
 */ 
-int main(void)
+int main(void) 
 { 
-int n; 
+int n;
 srand(time(0)); 
 n = rand() - RAND_MAX / 2; 
+/*my code*/ 
 if (n > 0) 
-printf("%i is positive\n", n);
-else if (n < 0) 
-printf("%i is negative\n", n); 
-else 
+printf("%i is positive\n", n); 
+else if (n == 0) 
 printf("%i is zero\n", n); 
+else 
+printf("%i is negative\n", n); 
 return (0); 
 }
