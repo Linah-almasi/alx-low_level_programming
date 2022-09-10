@@ -16,3 +16,4 @@ printf("%i", digit);
 }
 printf("\n");
 return (0);
+}
