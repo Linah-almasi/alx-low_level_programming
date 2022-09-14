@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include"main.h"
+#include"main_0.c"
 /**
  * main - print double digit combos
  *
