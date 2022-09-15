@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - prints the numbers, from 0 to 9,
  * except 2 and 4, followed by a new line
+ *Return: Alwalys 0.
  */
 void print_most_numbers(void)
 {
@@ -17,4 +18,5 @@ void print_most_numbers(void)
 	}
 
 	_putchar('\n');
+	return(0);
 }
